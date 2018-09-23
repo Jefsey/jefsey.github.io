@@ -1,0 +1,124 @@
+/*OKEOWO YUSSUF ABAYOMI*/
+/*luminousabayomi@gmail.com*/
+/*09026749660*/
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: arial, helvetica, san-serif;
+	font-size: 18px;
+	line-height: 1.3em;
+	margin: 0;
+}
+.container{
+	width: 85%;
+	margin: auto;
+	overflow: hidden;
+}
+#main{
+	background-color: blue;
+	color: white;
+}
+#navbar{
+	background-color: coral;
+	color:white;
+}
+#navbar a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 10px;
+}
+a:hover{
+	color:red;
+}
+ a:active{
+	color:blue;
+}
+#show{
+	background-image: url('../img/download.jpeg');
+	color: yellow;
+	padding: 40px;
+	background-position: center;
+	min-height: 250px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.img{
+	width: 100%;
+	margin: 20px;
+}
+.img1{
+	float: left;
+	width: 50%;
+}
+.img2{
+	float: right;
+	width: 50%;
+}
+@media(max-width: 700px){
+    .img1{
+        width: 100%;
+        float: none;
+    }
+    .img2{
+        width: 100%;
+        float: none;
+    }
+}
+#bottom{
+	background-color: blue;
+	text-align: center;
+	color: white;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+h1{
+	text-align: center;
+	font-family: tahoma;
+	letter-spacing: 0.1em;
+	font-style: italic;
+	word-spacing: 0.5em;
+}
+#edge{
+	border: 1px solid coral;
+	border-radius: 15px;
+	margin: 5px;
+}
+#edge li{
+	padding-bottom: 10px;
+	border-bottom: 1px solid yellow;
+}
+#info{
+border: 1px solid coral;
+border-radius: 15px;
+margin: 5px;
+padding: 5px;
+}
+input[type="text"],#info textarea{
+	display: block;
+	width: 90%;
+	padding:8px;
+	margin: 5px;
+}
+.button{
+	background-color: yellow;
+	padding:10px 15px;
+	color: blue;
+	border: 1px solid blue;
+}
+p{
+	font-family: arial, san-serif,helvetica;
+	font-style: italic;
+	line-height: 1.6em;
+}
+#social{
+	text-align: center;
+	background-color: coral;
+}
+label{
+	display: block;
+}
+.formclass{
+	margin: 5px;
+}
